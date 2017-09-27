@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.SocketGuiController">
+   <children>
+      <TextArea id="inputArea" fx:id="inputArea" layoutX="14.0" layoutY="14.0" prefHeight="248.0" prefWidth="276.0" />
+      <TextArea id="displayArea" fx:id="displayArea" layoutX="310.0" layoutY="14.0" prefHeight="248.0" prefWidth="276.0" />
+      <Button id="sendBtn" fx:id="sendBtn" layoutX="100.0" layoutY="272.0" mnemonicParsing="false" onAction="#handleSendBtnAction" text="Send" />
+      <Button id="countBtn" fx:id="countBtn" layoutX="396.0" layoutY="272.0" mnemonicParsing="false" onAction="#handleCountBtnAction" text="Count" />
+      <Button id="connectBtn" fx:id="connectBtn" layoutX="240.0" layoutY="323.0" mnemonicParsing="false" onAction="#handleConnectBtnAction" text="Connect" />
+   </children>
+</AnchorPane>
