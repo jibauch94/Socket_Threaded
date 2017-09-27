@@ -100,6 +100,7 @@ public void timer(){
             Duration.millis(duration), ae -> counter()));
     timeline.setCycleCount(cycleCount);
     timeline.play();
+    //timer skal stoppe når "Luk ned" bliver sendt
 }
 
 }
